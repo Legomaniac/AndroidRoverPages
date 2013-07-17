@@ -1,3 +1,7 @@
+html, body {
+  -webkit-font-smoothing:antialiased;
+}
+
 .bg {
   background-image:url('../../../fabric_of_squares_gray.png'); }
 
@@ -67,3 +71,14 @@
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+.thin, hr{
+  margin: 8px 0;
+  border-top: 1px solid #bebebe
+}
+
+.alert-disabled {
+  background-color: #eeeeee;
+  border-color: #ddd;
+  color: #535353;
+}
