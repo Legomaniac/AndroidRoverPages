@@ -9,7 +9,7 @@ layout: page
     <div class="span5">    
 	  <h2 class="text-left">The open source, <em>affordable</em>, Android based rover</h2>
 	  <br>
-	  <p>For under $300, you can build your own video call capable robot!</p>
+	  <p>For under $300, you can build your own video streaming robot!</p>
 	</div>
     <div class="span4">
 	  <object width="560" height="315"><param name="movie" value="//www.youtube.com/v/w5IfFvbPZ24?hl=en_US&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/w5IfFvbPZ24?hl=en_US&amp;version=3" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
