@@ -11,9 +11,12 @@ layout: page
 	  <br>
 	  <p>For under $300, you can build your own video streaming robot!</p>
 	</div>
-    <div class="span4">
-	  <object width="560" height="315"><param name="movie" value="//www.youtube.com/v/w5IfFvbPZ24?hl=en_US&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/w5IfFvbPZ24?hl=en_US&amp;version=3" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
-    </div>
+    <div class="span7">
+	  <object width="560" height="315"><param name="movie" value="//www.youtube.com/v/w5IfFvbPZ24?hl=en_US&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/w5IfFvbPZ24?hl=en_US&amp;version=3" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>		
+	<div class="span8 offset2">
+		<a href="/videos.html"><button class="btn btn-large btn-block" type="button">More Videos</button></a>
+	</div>
+	</div>
 </div>
 
 </div>
