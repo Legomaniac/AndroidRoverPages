@@ -28,7 +28,7 @@ While it may seem like a decently complex system at first glance, AndroidRover i
   <li>
     <h2>Step 2 - <small>Assemble the Rover</small></h2>
     <hr>
-    The only tools needed to assemble the AndroidRover are a multi-bit screwdriver, a soldering iron, and a vice. A drill press will be helpful if any customizations are desired, but is not necessary. Assembly of the IOIO and the custom shield should take place before moving on to the rover. For basic operation, only pins and headers are required to be soldered to the shield and the IOIO microcontroller itself (Fig. 2-1, Fig. 2-2). After the IOIO and shield have been populated with pins, construction of the rover may begin.
+    The only tools needed to assemble the AndroidRover are a multi-bit screwdriver, a soldering iron, and a vice. A drill press will be helpful if any customizations are desired, but is not necessary. Assembly of the IOIO and the custom shield should take place before moving on to the rover. For basic operation, only pins and headers are required to be soldered to the shield and the IOIO micro-controller itself (Fig. 2-1, Fig. 2-2). After the IOIO and shield have been populated with pins, construction of the rover may begin.
 	<p>
 	<ul class="thumbnails">
     <li class="span4 offset2">
@@ -48,7 +48,7 @@ While it may seem like a decently complex system at first glance, AndroidRover i
     <li class="indent">
         <h3>Step 2a - <small>Attach Vex Wheels to Rover 5 Chassis</small></h3>
     </li>
-    <p class="inset">There are several methods documented online of mounting the Vex mecanum wheels to the axels of the Rover 5 chassis, however the easiest method is to simply force the axels onto the wheels with a vice. As long as alignment is kept in mind, the Rover 5 axels work just fine when forced into the Vex wheel's center shaft. After all four wheels have been attached, assure that the height settings of the adjustable gearbox housings all match (Figure 2a-1). Before assembling the rest of the Rover, now is a good time to keep cord management in mind (Figure 2a-2). A few zip ties will make it easier to handle the sprawling nature of the power connectors for each gearbox.</p>
+    <p class="inset">There are several methods documented online of mounting the Vex mecanum wheels to the axles of the Rover 5 chassis, however the easiest method is to simply force the axles onto the wheels with a vice. As long as alignment is kept in mind, the Rover 5 axles work just fine when forced into the Vex wheel's center shaft. After all four wheels have been attached, assure that the height settings of the adjustable gearbox housings all match (Figure 2a-1). Before assembling the rest of the Rover, now is a good time to keep cord management in mind (Figure 2a-2). A few zip ties will make it easier to handle the sprawling nature of the power connectors for each gearbox.</p>
 	<p>
 	<ul class="thumbnails">
     <li class="span4 offset2">
@@ -69,7 +69,7 @@ While it may seem like a decently complex system at first glance, AndroidRover i
   <li class="indent">
         <h3>Step 2b - <small>Attach base to chassis</small></h3>
     </li>
-    <p class="inset">The Rover 5 chassis is a blank slate, so a custom laser cut acrylic mounting base is required to hold all the components in their place. Attaching the base is as simple as snaking all of the chassis cables through the main opening in the base, attaching Velcro straps to secure the battery packs, screwing in the posts for the motor driver board, then securing it with the four screws that line up with the chassis four mounting holes (Figure 2b). If careful cable management was not observed in the previous step, this can be quite difficult. With the cables, staps and posts in place, the components of the rover can be added.</p>
+    <p class="inset">The Rover 5 chassis is a blank slate, so a custom laser cut acrylic mounting base is required to hold all the components in their place. Attaching the base is as simple as snaking all of the chassis cables through the main opening in the base, attaching Velcro straps to secure the battery packs, screwing in the posts for the motor driver board, then securing it with the four screws that line up with the chassis four mounting holes (Figure 2b). If careful cable management was not observed in the previous step, this can be quite difficult. With the cables, straps and posts in place, the components of the rover can be added.</p>
 	<p>
 	<ul class="thumbnails">
     <li class="span4 offset4">
@@ -104,7 +104,7 @@ While it may seem like a decently complex system at first glance, AndroidRover i
   <li class="indent">
         <h3>Step 2d - <small>Plug in all the wires</small></h3>
     </li>
-    <p class="inset">Now that all the major componenets are in place, all that is left is to plug everything in (Figure 2d). First, make sure the shield is securely fastened to the IOIO. Then, attach the eight 4-pin patch cables from the motor driver board to the shield. When all 8 of the cables are in place, they should be stiff enough to hold up the IOIO assembly on their own.  Next, attach the two 3-pin servo cables from the pan/tilt bracket to the shield. Then, connect the USB adapter included with the IOIO to the Android device. The JST connecter from the AA battery box will plug into the JST port on the IOIO, then, some jumper wires must be run from the 5v output on the IOIO to the 5v logic input on the driver board. After the battery is secured to the base with the velcro straps installed earlier, make any nescessary modifications to the connectors so it can easily plug into the 9v-12v input on the driver board (see items 13 and 14 below). With that, the hardware portion of the rover is complete.</p>
+    <p class="inset">Now that all the major components are in place, all that is left is to plug everything in (Figure 2d). First, make sure the shield is securely fastened to the IOIO. Then, attach the eight 4-pin patch cables from the motor driver board to the shield. When all 8 of the cables are in place, they should be stiff enough to hold up the IOIO assembly on their own.  Next, attach the two 3-pin servo cables from the pan/tilt bracket to the shield. Then, connect the USB adapter included with the IOIO to the Android device. The JST connecter from the AA battery box will plug into the JST port on the IOIO, then, some jumper wires must be run from the 5v output on the IOIO to the 5v logic input on the driver board. After the battery is secured to the base with the velcro straps installed earlier, make any nescessary modifications to the connectors so it can easily plug into the 9v-12v input on the driver board (see items 13 and 14 below). With that, the hardware portion of the rover is complete.</p>
 	<p>
 	<ul class="thumbnails">
     <li class="span4 offset4">
@@ -123,13 +123,13 @@ While it may seem like a decently complex system at first glance, AndroidRover i
 	For the time being, in order to install the AndroidRover applications to the selected Android devices, an Android development environment is required. The most effective programming environment for IOIO development is Eclipse. You can find instructions to install the Eclipse Android plugin at <a href ="http://developer.android.com/tools/sdk/eclipse-adt.html">http://developer.android.com/</a> and instructions on how to implement the IOIO libraries at <a href ="https://github.com/ytai/ioio/wiki/IOIO-Beginner%27s-Guide">https://github.com/ytai/ioio/</a>. The application code is available on Github (see Download page), and any modifications that might be beneficial may be submitted for a pull request.  
     
     <li class="indent">
-        <h3>Step 3a - <small>Server Appliction</small></h3>
+        <h3>Step 3a - <small>Server Application</small></h3>
     </li>
-    <p class="inset">The server application must be deployed to the device that is attached to the pan/tilt bracket on the rover itself. After forking the project from Github, and setting up the development enviroment, all that is required is to plug in the device and press the play button in Eclipse to compile and upload the application. The device should be connected to the same local WiFi network as the other device. 
+    <p class="inset">The server application must be deployed to the device that is attached to the pan/tilt bracket on the rover itself. After forking the project from Github, and setting up the development environment, all that is required is to plug in the device and press the play button in Eclipse to compile and upload the application. The device should be connected to the same local WiFi network as the other device. 
   <li class="indent">
         <h3>Step 3a - <small>Client Application</small></h3>
     </li>
-    <p class="inset">The client application does not require the setup of the IOIO librarie, howerver, it must be compiled in the same fashion as the server application. Unlike the server application, the client may remain plugged into the development computer in order to monitor the debugging output. After uploaded to the Andoid device chosen for the remote, the application must be started before the server in order to operate correctly.</p>
+    <p class="inset">The client application does not require the setup of the IOIO libraries, however, it must be compiled in the same fashion as the server application. Unlike the server application, the client may remain plugged into the development computer in order to monitor the debugging output. After uploaded to the Android device chosen for the remote, the application must be started before the server in order to operate correctly.</p>
   </li>
 </ul>
 
